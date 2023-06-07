@@ -17,23 +17,11 @@
         tools:layout_editor_absoluteY="1dp">
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Correo Electronico"
-            android:inputType="textEmailAddress"
-            android:minHeight="48dp"
-            android:textAlignment="center"
-            android:textColorHint="@color/white"
-            android:textSize="20sp" />
-
-        <EditText
             android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Contraseña"
+            android:hint="Nombre"
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:textAlignment="center"
@@ -48,14 +36,6 @@
             android:text="Ingresar"
             android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Restablecer Password"
-            android:textAlignment="center"
-            android:textColorHint="#FFFFFF"
-            android:textSize="16sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
