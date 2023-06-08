@@ -16,13 +16,23 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
-        <EditText
-            android:id="@+id/etxt_nombre"
+        <TextView
+            android:id="@+id/tv_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Nombre"
-            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:text="Por favor ingrese su nombre"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/pt_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
             android:minHeight="48dp"
             android:textAlignment="center"
             android:textColorHint="@color/white"

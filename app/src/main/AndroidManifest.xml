@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TiendaBrewPartners"
         tools:targetApi="31">
-        <activity android:name=".MainActivity" android:theme="@style/Theme.TiendaBrewPartners"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
         <activity android:name=".ActivitySplash"
             android:exported="true">
             <intent-filter>
@@ -21,7 +23,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuActivity" android:theme="@style/Theme.TiendaBrewPartners"></activity>
+        <activity
+            android:name=".MenuActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
+        <activity
+            android:name=".TiendaActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
+        <activity
+            android:name=".HorarioActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
+        <activity
+            android:name=".ContactoActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
+        <activity
+            android:name=".NacionalesActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
+        <activity
+            android:name=".ImportadasActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
+        <activity
+            android:name=".ArtesanalesActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
+        <activity
+            android:name=".LigerasActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
+        <activity
+            android:name=".OscurasActivity"
+            android:theme="@style/Theme.TiendaBrewPartners" />
+
     </application>
 
 </manifest>

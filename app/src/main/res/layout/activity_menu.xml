@@ -12,28 +12,31 @@
         tools:layout_editor_absoluteY="1dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tv_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_tienda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick="tienda"
+            android:text="Tienda" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btn_horario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick="horario"
+            android:text="Horario" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btn_contacto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:onClick="contacto"
+            android:text="Contacto" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
