@@ -15,26 +15,34 @@ public class MenuActivity extends MainActivity {
 
     @SuppressLint("SetTextI18n")
     @Override
-    public void onCreate (Bundle savedInstanceState){
+    public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
+        // Obtener referencia al TextView en el diseño
         txt = (TextView) findViewById(R.id.tv_txt);
+
+        // Obtener el nombre pasado como extra del Intent
         nombre = getIntent().getStringExtra("nombre");
+
+        // Establecer el texto de bienvenida con el nombre en el TextView
         txt.setText("Bienvenido a BrewPartners " + nombre);
     }
 
     public void tienda(View view){
+        // Abrir la actividad TiendaActivity
         Intent i = new Intent(this, TiendaActivity.class);
         startActivity(i);
     }
 
     public void horario(View view){
+        // Abrir la actividad HorarioActivity
         Intent i = new Intent(this, HorarioActivity.class);
         startActivity(i);
     }
 
     public void contacto(View view){
+        // Abrir la actividad ContactoActivity
         Intent i = new Intent(this, ContactoActivity.class);
         startActivity(i);
     }

@@ -19,26 +19,31 @@ public class TiendaActivity extends MainActivity{
     }
 
     public void nacionales(View view){
+        // Crear una nueva intención para abrir la actividad de "NacionalesActivity"
         Intent i = new Intent(this, NacionalesActivity.class);
         startActivity(i);
     }
 
     public void importadas(View view){
+        // Crear una nueva intención para abrir la actividad de "ImportadasActivity"
         Intent i = new Intent(this, ImportadasActivity.class);
         startActivity(i);
     }
 
     public void artesanales(View view){
+        // Crear una nueva intención para abrir la actividad de "ArtesanalesActivity"
         Intent i = new Intent(this, ArtesanalesActivity.class);
         startActivity(i);
     }
 
     public void ligeras(View view){
+        // Crear una nueva intención para abrir la actividad de "LigerasActivity"
         Intent i = new Intent(this, LigerasActivity.class);
         startActivity(i);
     }
 
     public void oscuras(View view){
+        // Crear una nueva intención para abrir la actividad de "OscurasActivity"
         Intent i = new Intent(this, OscurasActivity.class);
         startActivity(i);
     }

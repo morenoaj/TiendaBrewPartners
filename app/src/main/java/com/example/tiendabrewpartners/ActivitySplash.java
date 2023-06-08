@@ -6,25 +6,32 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ProgressBar;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ActivitySplash extends AppCompatActivity {
 
     ProgressBar splashProgress;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        splashProgress=findViewById(R.id.splashProgress);
-        ObjectAnimator.ofInt(splashProgress,"progress",100).setDuration(6000).start();
+
+        // Obtener la referencia al ProgressBar en el diseño
+        splashProgress = findViewById(R.id.splashProgress);
+
+        // Crear una animación para el ProgressBar
+        ObjectAnimator.ofInt(splashProgress, "progress", 100).setDuration(6000).start();
+
+        // Esperar un tiempo antes de pasar a la siguiente actividad
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(ActivitySplash.this, MainActivity.class);
+                // Crear un Intent para pasar a la MainActivity
+                Intent intent = new Intent(ActivitySplash.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
-        },3000);
+        }, 3000); // Esperar 3 segundos antes de pasar a la siguiente actividad
     }
 }

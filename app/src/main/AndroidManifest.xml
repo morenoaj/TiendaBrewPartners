@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tiendabrewpartners">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,10 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TiendaBrewPartners"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.TiendaBrewPartners" />
-        <activity android:name=".ActivitySplash"
+            android:theme="@style/Theme.TiendaBrewPartners"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,34 +25,53 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ActivitySplash"
+            android:exported="true" />
+
         <activity
             android:name=".MenuActivity"
             android:theme="@style/Theme.TiendaBrewPartners" />
+
         <activity
             android:name=".TiendaActivity"
             android:theme="@style/Theme.TiendaBrewPartners" />
+
         <activity
             android:name=".HorarioActivity"
             android:theme="@style/Theme.TiendaBrewPartners" />
+
         <activity
             android:name=".ContactoActivity"
             android:theme="@style/Theme.TiendaBrewPartners" />
+
         <activity
             android:name=".NacionalesActivity"
             android:theme="@style/Theme.TiendaBrewPartners" />
+
         <activity
             android:name=".ImportadasActivity"
             android:theme="@style/Theme.TiendaBrewPartners" />
+
         <activity
             android:name=".ArtesanalesActivity"
             android:theme="@style/Theme.TiendaBrewPartners" />
+
         <activity
             android:name=".LigerasActivity"
             android:theme="@style/Theme.TiendaBrewPartners" />
+
         <activity
             android:name=".OscurasActivity"
             android:theme="@style/Theme.TiendaBrewPartners" />
 
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCZH12NJFxNEP3u173grXUAGRjRIey7uxQ" />
+
     </application>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 </manifest>
