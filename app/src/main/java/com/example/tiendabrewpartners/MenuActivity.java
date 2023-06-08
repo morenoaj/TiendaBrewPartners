@@ -26,7 +26,7 @@ public class MenuActivity extends MainActivity {
         nombre = getIntent().getStringExtra("nombre");
 
         // Establecer el texto de bienvenida con el nombre en el TextView
-        txt.setText("Bienvenido a BrewPartners " + nombre);
+        txt.setText("Bienvenido a BrewPartners, " + nombre);
     }
 
     public void tienda(View view){
