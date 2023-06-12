@@ -6,6 +6,8 @@ import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 public class NacionalesActivity extends MainActivity{
 
     String nombre;
