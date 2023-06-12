@@ -24,6 +24,7 @@
             android:minHeight="48dp"
             android:text="Por favor ingrese su nombre"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textColorHint="@color/white"
             android:textSize="20sp" />
 

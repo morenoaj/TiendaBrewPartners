@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -20,42 +19,92 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Secciones"
-                android:textSize="34sp" />
+                android:textAlignment="center"
+                android:textColor="@color/color3"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
 
             <ImageButton
                 android:id="@+id/imageButton"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="TODO"
                 android:onClick="nacionales"
-                app:srcCompat="@drawable/ic_launcher_foreground" />
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/nacionales" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <ImageButton
                 android:id="@+id/imageButton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="TODO"
                 android:onClick="importadas"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/importadas" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="TODO"
                 android:onClick="artesanales"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/artesanales" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <ImageButton
                 android:id="@+id/imageButton4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="TODO"
                 android:onClick="ligeras"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ligeras" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <ImageButton
                 android:id="@+id/imageButton5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 android:onClick="oscuras"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/oscuras" />
         </LinearLayout>
+
     </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/buttonRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:onClick="regresar"
+        android:text="Regresar"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</RelativeLayout>

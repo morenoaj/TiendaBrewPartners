@@ -19,6 +19,7 @@ public class ContactoActivity extends MainActivity implements OnMapReadyCallback
 
     private MapView mapView;
     private TextView wasa, insta;
+    String nombre;
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -38,6 +39,14 @@ public class ContactoActivity extends MainActivity implements OnMapReadyCallback
         // Establecer el texto para los elementos de la interfaz de usuario
         wasa.setText("WhatsApp: 6066-9987 / 6150-9211"+'\n');
         insta.setText("Instagram: @brewpartners");
+
+        nombre = getIntent().getStringExtra("nombre");
+    }
+
+    public void regresar(View view){
+        Intent i = new Intent(this, MenuActivity.class);
+        i.putExtra("nombre", nombre);
+        startActivity(i);
     }
 
     @Override

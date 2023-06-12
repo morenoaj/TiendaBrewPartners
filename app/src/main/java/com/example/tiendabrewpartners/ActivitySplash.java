@@ -32,6 +32,7 @@ public class ActivitySplash extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 3000); // Esperar 3 segundos antes de pasar a la siguiente actividad
+        }, 6000); // Esperar 6 segundos antes de pasar a la siguiente actividad
+
     }
 }
