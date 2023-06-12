@@ -12,11 +12,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TiendaBrewPartners"
+        android:theme="@style/SplashTheme"
         tools:targetApi="31">
 
-        <activity
-            android:name=".MainActivity"
+       <activity
+            android:name=".ActivitySplash"
             android:theme="@style/Theme.TiendaBrewPartners"
             android:exported="true">
             <intent-filter>
@@ -27,7 +27,7 @@
         </activity>
 
         <activity
-            android:name=".ActivitySplash"
+            android:name=".MainActivity"
             android:exported="true" />
 
         <activity

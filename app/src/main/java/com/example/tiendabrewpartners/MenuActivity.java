@@ -38,14 +38,14 @@ public class MenuActivity extends MainActivity {
 
     public void horario(View view){
         // Abrir la actividad HorarioActivity
-        Intent i = new Intent(this, TiendaActivity.class);
+        Intent i = new Intent(this, HorarioActivity.class);
         i.putExtra("nombre", nombre);
         startActivity(i);
     }
 
     public void contacto(View view){
         // Abrir la actividad ContactoActivity
-        Intent i = new Intent(this, TiendaActivity.class);
+        Intent i = new Intent(this, ContactoActivity.class);
         i.putExtra("nombre", nombre);
         startActivity(i);
     }

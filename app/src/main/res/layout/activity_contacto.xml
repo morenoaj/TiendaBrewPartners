@@ -9,7 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="WhatsApp: 6066-9987 / 6150-9211" />
+        android:fontFamily="@font/calistoga"
+        android:text="WhatsApp: 6066-9987 / 6150-9211"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tv_instagram"
@@ -17,7 +19,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_whatsApp"
         android:layout_marginTop="8dp"
-        android:text="Instagram: @brewpartners" />
+        android:fontFamily="@font/calistoga"
+        android:text="Instagram: @brewpartners"
+        android:textSize="20sp" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
@@ -31,10 +35,15 @@
         android:id="@+id/buttonRegresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/button_background"
+        android:fontFamily="@font/calistoga"
+        android:textColor="@color/white"
         android:onClick="regresar"
         android:text="Regresar"
         app:backgroundTint="@null" />

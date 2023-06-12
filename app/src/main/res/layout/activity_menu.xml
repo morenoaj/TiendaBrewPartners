@@ -19,48 +19,93 @@
             android:id="@+id/tv_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="27sp" />
+            android:fontFamily="@font/calistoga"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="30dp" />
+            android:layout_height="60dp" />
 
-        <Button
-            android:id="@+id/btn_tienda"
+        <ImageButton
+            android:id="@+id/imageButton7"
             android:layout_width="167dp"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_menu"
+            android:contentDescription="@string/BTNtienda"
             android:drawableTop="@drawable/barril"
             android:onClick="tienda"
             android:padding="8dp"
-            android:text="@string/BTNtienda" />
+            android:src="@drawable/barril"
+            android:text="@string/BTNtienda"
+            tools:ignore="ImageContrastCheck" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_menu"
+            android:fontFamily="@font/calistoga"
+            android:text="@string/BTNtienda"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="15dp" />
 
-        <Button
-            android:id="@+id/btn_horario"
+        <ImageButton
+            android:id="@+id/imageButton5"
             android:layout_width="167dp"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_menu"
+            android:contentDescription="@string/BTNhorario"
             android:drawableTop="@drawable/calendario"
             android:onClick="horario"
             android:padding="8dp"
-            android:text="@string/BTNhorario" />
+            android:src="@drawable/calendario"
+            android:text="@string/BTNhorario"
+            tools:ignore="ImageContrastCheck" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_menu"
+            android:fontFamily="@font/calistoga"
+            android:text="@string/BTNhorario"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="15dp" />
 
-        <Button
-            android:id="@+id/btn_contacto"
+
+        <ImageButton
+            android:id="@+id/imageButton6"
             android:layout_width="167dp"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_menu"
-            android:drawableTop="@drawable/comunicar"
+            android:contentDescription="@string/BTNcontacto"
+            android:drawableTop="@drawable/calendario"
             android:onClick="contacto"
             android:padding="8dp"
-            android:text="@string/BTNcontacto" />
+            android:src="@drawable/comunicar"
+            android:text="@string/BTNcontacto"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_menu"
+            android:fontFamily="@font/calistoga"
+            android:text="@string/BTNcontacto"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

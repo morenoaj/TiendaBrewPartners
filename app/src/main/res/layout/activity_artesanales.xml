@@ -6,7 +6,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <TableLayout
             android:layout_width="match_parent"
@@ -17,6 +17,7 @@
                 android:id="@+id/txt_secciones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/calistoga"
                 android:text="Cervezas Artesanales"
                 android:textAlignment="center"
                 android:textColor="@color/color3"
@@ -35,16 +36,18 @@
                 <ImageView
                     android:id="@+id/iv_importada1"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
+                    android:layout_height="160dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/importada1" />
+                    app:srcCompat="@drawable/artesanal1" />
 
                 <TextView
                     android:id="@+id/tv_importada1"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Stella Artrois || precio: 5.00" />
+                    android:textColor="@color/color8"
+                    android:text="Intriga|| Precio: 2.50" />
 
             </TableRow>
 
@@ -59,15 +62,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/artesanal2" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Nómada || Precio: 2.50" />
 
             </TableRow>
 
@@ -82,15 +88,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/artesanal3" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Ley Seca || Precio: 2.50" />
 
             </TableRow>
 
@@ -105,15 +114,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/artesanal4" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Xa' Madre || Precio: 2.50" />
 
             </TableRow>
 
@@ -128,15 +140,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/artesanal5" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Doppelbock || Precio: 2.50" />
 
             </TableRow>
 
@@ -151,15 +166,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/artesanal6" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Malambo || Precio: 2.50" />
 
             </TableRow>
 
@@ -174,15 +192,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/artesanal7" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Malek || Precio: 2.50" />
 
             </TableRow>
 
@@ -197,15 +218,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/artesanal8" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Hoppy-Pils || Precio: 2.50" />
 
             </TableRow>
 
@@ -220,15 +244,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/artesanal9" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Guerra Fría || Precio: 2.50" />
 
             </TableRow>
 
@@ -239,19 +266,25 @@
             <TableRow>
 
                 <ImageView
-                    android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/artesanal10" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Perla Negra || Precio: 2.50" />
 
             </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="85dp" />
 
         </TableLayout>
 
@@ -266,6 +299,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/button_background"
+        android:fontFamily="@font/calistoga"
+        android:textColor="@color/white"
         android:onClick="regresar"
         android:text="Regresar"
         app:backgroundTint="@null"

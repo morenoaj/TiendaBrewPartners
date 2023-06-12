@@ -18,6 +18,7 @@
                 android:id="@+id/txt_secciones"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/calistoga"
                 android:text="Secciones"
                 android:textAlignment="center"
                 android:textColor="@color/color3"
@@ -30,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:contentDescription="TODO"
+                android:background="@drawable/btn_menu"
                 android:onClick="nacionales"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/nacionales" />
@@ -44,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:contentDescription="TODO"
+                android:background="@drawable/btn_menu"
                 android:onClick="importadas"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/importadas" />
@@ -57,6 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
+                android:background="@drawable/btn_menu"
                 android:contentDescription="TODO"
                 android:onClick="artesanales"
                 android:scaleType="centerInside"
@@ -72,6 +76,7 @@
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:contentDescription="TODO"
+                android:background="@drawable/btn_menu"
                 android:onClick="ligeras"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/ligeras" />
@@ -87,6 +92,7 @@
                 android:adjustViewBounds="true"
                 android:onClick="oscuras"
                 android:scaleType="centerInside"
+                android:background="@drawable/btn_menu"
                 app:srcCompat="@drawable/oscuras" />
         </LinearLayout>
 
@@ -101,6 +107,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/button_background"
+        android:fontFamily="@font/calistoga"
+        android:textColor="@color/white"
         android:onClick="regresar"
         android:text="Regresar"
         app:backgroundTint="@null"

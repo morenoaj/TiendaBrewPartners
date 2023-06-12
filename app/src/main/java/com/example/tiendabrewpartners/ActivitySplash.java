@@ -21,7 +21,7 @@ public class ActivitySplash extends AppCompatActivity {
         splashProgress = findViewById(R.id.splashProgress);
 
         // Crear una animación para el ProgressBar
-        ObjectAnimator.ofInt(splashProgress, "progress", 100).setDuration(6000).start();
+        ObjectAnimator.ofInt(splashProgress, "progress", 100).setDuration(4000).start();
 
         // Esperar un tiempo antes de pasar a la siguiente actividad
         new Handler().postDelayed(new Runnable() {
@@ -32,7 +32,6 @@ public class ActivitySplash extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 6000); // Esperar 6 segundos antes de pasar a la siguiente actividad
-
+        }, 4000); // Esperar 6 segundos antes de pasar a la siguiente actividad
     }
 }

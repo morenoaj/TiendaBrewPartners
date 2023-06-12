@@ -34,16 +34,18 @@
                 <ImageView
                     android:id="@+id/iv_importada1"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
+                    android:layout_height="160dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/importada1" />
+                    app:srcCompat="@drawable/nacional1" />
 
                 <TextView
                     android:id="@+id/tv_importada1"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Stella Artrois || precio: 5.00" />
+                    android:textColor="@color/color8"
+                    android:text="Atlas Golden Light || Precio: 1.00" />
 
             </TableRow>
 
@@ -58,15 +60,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nacional2" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Balboa Ice || Precio: 1.00" />
 
             </TableRow>
 
@@ -81,15 +86,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nacional3" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Balboa Red || Precio: 1.25" />
 
             </TableRow>
 
@@ -104,15 +112,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nacional4" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Atlas Golden Extra || Precio: 1.00" />
 
             </TableRow>
 
@@ -127,15 +138,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nacional5" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Atlas Premium || Precio: 1.00" />
 
             </TableRow>
 
@@ -150,15 +164,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nacional6" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Cristal || Precio: 1.00" />
 
             </TableRow>
 
@@ -173,15 +190,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nacional7" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Soberana || Precio: 1.00" />
 
             </TableRow>
 
@@ -196,15 +216,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nacional8" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Panamá Light || Precio: 1.00" />>
 
             </TableRow>
 
@@ -219,15 +242,18 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nacional9" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Panamá Clasic || Precio: 1.00" />
 
             </TableRow>
 
@@ -240,17 +266,24 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="207dp"
-                    android:layout_height="121dp"
-                    android:scaleType="centerCrop" />
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nacional10" />
 
                 <TextView
                     android:id="@+id/textViewDescripcion"
                     android:layout_width="199dp"
                     android:layout_height="match_parent"
+                    android:fontFamily="@font/calistoga"
                     android:gravity="center"
-                    android:text="Descripción de la imagen" />
+                    android:textColor="@color/color8"
+                    android:text="Atlas Manga Larga || Precio: 1.00" />
 
             </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="85dp" />
 
         </TableLayout>
 
@@ -265,6 +298,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/button_background"
+        android:fontFamily="@font/calistoga"
+        android:textColor="@color/white"
         android:onClick="regresar"
         android:text="Regresar"
         app:backgroundTint="@null"
